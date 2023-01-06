@@ -21,3 +21,42 @@
     width: 62.56px;
     height: 16.02px;
 }
+
+.gpt1__navbar-links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt1__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+
+.gpt1__navbar-links-container p,
+.gpt1__navbar-sign p,
+.gpt1__navbar-menu-container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer
+}
+
+.gpt1__navbar-sign button,
+.gpt1__navbar-menu-container button {
+    padding: 1rem 2rem;
+    color:#FFF;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height:25px;
+    font-weight: 500;
+    background: #FF4820;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
